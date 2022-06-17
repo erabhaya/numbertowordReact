@@ -100,10 +100,10 @@ function NumberCount() {
   return (
     <div className="main">
       <h1>Enter Number For Converting in Words!</h1>
-        <input type="number" className="input" onKeyUp={handleChange} />
+        <input type="number" className="input" onKeyUp={handleChange} placeholder="Enter Number" />
       <div className="output">{word}</div>
       <div>
-        {/* <img src="./board.png" alt="" /> */}
+        <img className="madam" src="./madam.png" alt="" />
       </div>
     </div>
   );
