@@ -1,0 +1,38 @@
+body{
+    background-image: url('/public/school.jpeg');
+    background-size: cover;
+}
+img{
+    width: 750px;
+    height: 550px;
+    margin-left: 150px;
+}
+.main{
+    background-image: url('/public/board.png');
+    background-size: 750px;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin-left: 300px;
+    /* position: fixed; */
+}
+h1{
+    position: relative; top: 150px; left: 80px;
+    color: whitesmoke;
+}
+.input{
+    position: relative;
+    left: 110px; top: 170px;
+    width: 50%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid whsht;
+    font-size:24px;
+    color: whitesmoke;
+}
+.output{
+    position: relative;
+    left: 120px; top: 200px;
+    color: whitesmoke;
+    width: 50%;
+    /* font-size: ; */
+}
